@@ -12,11 +12,11 @@ New Schools Today is an open-source project to modernize online school resources
 
 ## How to contribute
 
-#Who we are looking for
+# Who we are looking for
 - UX Designers
 - Graphic Designers
 
-#How to join
+# How to join
 - Join the team
   - Join our slack
   - Come to Hack For LA Santa Monica on Monday Nights

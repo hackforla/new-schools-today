@@ -15,6 +15,7 @@ New Schools Today is an open-source project to modernize online school resources
 ### Who we are looking for
 - UX Designers
 - Graphic Designers
+- React Tutor
 
 ### How to join
 - Join the team

@@ -1,10 +1,8 @@
 import React from 'react';
 import SearchAppBar from './AppBar';
 
-function App() {
+export default function App() {
   return (
     <SearchAppBar></SearchAppBar>
   );
 }
-
-export default App;

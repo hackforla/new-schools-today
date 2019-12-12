@@ -17,10 +17,6 @@ const useStyles = makeStyles(theme => ({
   },
   title: {
     flexGrow: 1,
-    display: 'none',
-    [theme.breakpoints.up('sm')]: {
-      display: 'block',
-    },
   },
   search: {
     position: 'relative',
@@ -79,19 +75,13 @@ export default function SearchAppBar() {
           <Typography className={classes.title} variant="h6" noWrap>
             New Schools Today
           </Typography>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
+          
+            
             <InputBase
               placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
+              
               inputProps={{ 'aria-label': 'search' }}
             />
-          </div>
         </Toolbar>
       </AppBar>
     </div>

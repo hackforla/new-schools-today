@@ -5,7 +5,8 @@ import Typography from '@material-ui/core/Typography';
 import InputBase from '@material-ui/core/InputBase';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
-import MenuListButton from './MenuButton';
+// import MenuListButton from './MenuButton';
+import MenuDrawer from './MenuDrawer';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -67,7 +68,7 @@ const useStyles = makeStyles(theme => ({
       <div className={classes.root}>
         <AppBar position="static">
           <Toolbar>
-            <MenuListButton></MenuListButton>
+            <MenuDrawer></MenuDrawer>
             <Typography className={classes.title} variant="h6" noWrap>
               New Schools Today
             </Typography>

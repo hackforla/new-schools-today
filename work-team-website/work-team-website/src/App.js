@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchAppBar from './components/titleBar/AppBar';
+import SearchAppBar from './ShowAppBar';
 
 export default function App() {
   return (

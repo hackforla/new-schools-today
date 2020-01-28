@@ -1,8 +1,5 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import ToolBar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import TopBar from './Components/TopBar';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -17,18 +14,13 @@ const useStyles = makeStyles(theme => ({
   menuButton: {
     marginRight: theme.spacing(2),
   },
-  title: {
-    flexGrow: 1,
-  },
+  
   drawerPaper: {
     width: 240,
   },
   drawer: {
     width: 240,
     flexShrink: 0,
-  },
-  appBar: {
-    zIndex: theme.zIndex.drawer + 1,
   },
   toolbar: theme.mixins.toolbar,
 
@@ -40,16 +32,7 @@ function App() {
 
   return (
     <div className={classes.root}>
-      <AppBar className={classes.appBar}>
-        <ToolBar>
-        <Typography variant="h6" className={classes.title}>
-          New Schools Today
-        </Typography>
-        <Button color="inherit" edge="end">
-          LOGIN
-        </Button>
-        </ToolBar>
-      </AppBar>
+      <TopBar></TopBar>
       <Drawer 
         variant="permanent" 
         className={classes.drawer} 

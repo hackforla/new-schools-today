@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import './Home.dart';
+import './Login.dart';
 
 void main() => runApp(MyApp());
+
+const String HomeViewRoute = '/';
+const String LoginViewRoute = 'login';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -20,7 +25,18 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      onGenerateRoute: (RouteSettings settings) {
+        switch (settings.name) {
+          case HomeViewRoute:
+            return MaterialPageRoute(builder: (context) => HomeView());
+          case LoginViewRoute:
+            return MaterialPageRoute(builder: (context) => LoginView());
+          default:
+            return MaterialPageRoute(builder: (context) => HomeView());
+        }
+      },
+      initialRoute: HomeViewRoute,
+      // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

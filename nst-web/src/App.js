@@ -5,11 +5,13 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { makeStyles } from "@material-ui/core/styles";
+import Body from "./body";
 
-import "./App.css";
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    display: 'flex',
+
   },
   menuButton: {
     marginRight: theme.spacing(2)
@@ -45,6 +47,7 @@ function App() {
           </ListItem>
         </List>
       </Drawer>
+      <Body></Body>
     </div>
   );
 }

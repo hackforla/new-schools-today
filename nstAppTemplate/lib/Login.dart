@@ -19,7 +19,7 @@ class LoginView extends StatelessWidget {
           child: RaisedButton(
             padding: EdgeInsets.only(top: 100),
             onPressed: () {
-              Navigator.pop(context, 'fromLogin');
+              Navigator.pop(context);
             },
           ),
         ),

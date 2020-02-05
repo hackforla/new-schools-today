@@ -13,7 +13,7 @@ class HomeView extends StatelessWidget {
         child: RaisedButton(
           padding: EdgeInsets.only(top: 100),
           onPressed: () {
-            Navigator.pushNamed(context, LoginViewRoute);
+            Navigator.pushNamed(context, LoginViewRoute, arguments: 'Data Passed in');
           },
         ),
       ),

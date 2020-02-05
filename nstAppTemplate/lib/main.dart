@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './Home.dart';
 import './Login.dart';
+import './UndefinedView.dart';
 
 void main() => runApp(MyApp());
 
@@ -34,10 +35,13 @@ class MyApp extends StatelessWidget {
             return MaterialPageRoute(builder: (context) => 
               LoginView(argument: loginArgument,)
             );
-          default:
-            return MaterialPageRoute(builder: (context) => HomeView());
         }
       },
+      onUnknownRoute: (settings) => MaterialPageRoute(
+        builder: (context) => UndefinedView(
+          name: settings.name,
+        )
+      ),
       initialRoute: HomeViewRoute,
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class LoginView extends StatelessWidget {
   final String argument;
-
   const LoginView({Key key, this.argument}) : super(key: key);
 
   @override

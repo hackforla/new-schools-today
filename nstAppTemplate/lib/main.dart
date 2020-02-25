@@ -1,6 +1,23 @@
 import 'package:flutter/material.dart';
+import './Home.dart';
+import './UndefinedView.dart';
 
 void main() => runApp(MyApp());
+
+const String homeViewRoute = '/';
+const List routes = [
+  {
+    'name':'Home',
+    'route':'/'
+  },
+];
+
+MaterialPageRoute directRoute(int index) {
+  switch(index) {
+    case 0:
+      return MaterialPageRoute(builder: (context) => HomeView());
+  }
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -20,7 +37,20 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      onGenerateRoute: (RouteSettings settings) {
+        for(int i = 0; i < routes.length; i++) {
+          if(settings.name == routes[i]['route']) {
+            return directRoute(i);
+          }
+        }
+      },
+      onUnknownRoute: (settings) => MaterialPageRoute(
+        builder: (context) => UndefinedView(
+          name: settings.name,
+        )
+      ),
+      initialRoute: homeViewRoute,
+      // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

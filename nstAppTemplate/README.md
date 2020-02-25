@@ -1,16 +1,12 @@
 # nstAppTemplate
 
-A new Flutter project.
+A Flutter project that aims to welcome the "new student" to a new school.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Add a Page
+To add a page with a router: 
+ - Import the file into main.dart
+ - Add a map to the List of "routers"
+    - This should include name and route
+ - Add the directRoute function
+    - Add the index of the page in the "case" part
+    - Add a return following "return MaterialPageRoute(builder: (context) =>" + your page's function

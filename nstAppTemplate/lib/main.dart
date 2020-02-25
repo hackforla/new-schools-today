@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import './Home.dart';
 import './UndefinedView.dart';
-import './staffTest.dart';
-import './scheTest.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,24 +10,12 @@ const List routes = [
     'name':'Home',
     'route':'/'
   },
-  {
-    'name':'Staff Directory',
-    'route':'staff'
-  },
-  {
-    'name':'Schedule',
-    'route':'sche'
-  }
 ];
 
 MaterialPageRoute directRoute(int index) {
   switch(index) {
     case 0:
       return MaterialPageRoute(builder: (context) => HomeView());
-    case 1:
-      return MaterialPageRoute(builder: (context) => StaffView());
-    case 2:
-      return MaterialPageRoute(builder: (context) => ScheduleView());
   }
 }
 

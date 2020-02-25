@@ -14,8 +14,9 @@ class UndefinedView extends StatelessWidget {
       body: Center(
         child: RaisedButton(
           padding: EdgeInsets.only(top: 100),
+          child: Text("Back"),
           onPressed: () {
-            Navigator.pushNamed(context, HomeViewRoute);
+            Navigator.pushNamed(context, homeViewRoute);
           },
         ),
       ),

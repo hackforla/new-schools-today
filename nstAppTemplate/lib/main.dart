@@ -1,12 +1,37 @@
 import 'package:flutter/material.dart';
 import './Home.dart';
-import './Login.dart';
 import './UndefinedView.dart';
+import './staffTest.dart';
+import './scheTest.dart';
 
 void main() => runApp(MyApp());
 
-const String HomeViewRoute = '/';
-const String LoginViewRoute = 'login';
+const String homeViewRoute = '/';
+const List routes = [
+  {
+    'name':'Home',
+    'route':'/'
+  },
+  {
+    'name':'Staff Directory',
+    'route':'staff'
+  },
+  {
+    'name':'Schedule',
+    'route':'sche'
+  }
+];
+
+MaterialPageRoute directRoute(int index) {
+  switch(index) {
+    case 0:
+      return MaterialPageRoute(builder: (context) => HomeView());
+    case 1:
+      return MaterialPageRoute(builder: (context) => StaffView());
+    case 2:
+      return MaterialPageRoute(builder: (context) => ScheduleView());
+  }
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -27,14 +52,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       onGenerateRoute: (RouteSettings settings) {
-        switch (settings.name) {
-          case HomeViewRoute:
-            return MaterialPageRoute(builder: (context) => HomeView());
-          case LoginViewRoute:
-            var loginArgument = settings.arguments;
-            return MaterialPageRoute(builder: (context) => 
-              LoginView(argument: loginArgument,)
-            );
+        for(int i = 0; i < routes.length; i++) {
+          if(settings.name == routes[i]['route']) {
+            return directRoute(i);
+          }
         }
       },
       onUnknownRoute: (settings) => MaterialPageRoute(
@@ -42,7 +63,7 @@ class MyApp extends StatelessWidget {
           name: settings.name,
         )
       ),
-      initialRoute: HomeViewRoute,
+      initialRoute: homeViewRoute,
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

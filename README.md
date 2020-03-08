@@ -1,6 +1,9 @@
 # New Schools Today
 [![Build Status](https://travis-ci.com/hackforla/new-schools-today.svg?branch=master)](https://travis-ci.com/hackforla/new-schools-today)
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+
 ![Watchers](https://img.shields.io/github/watchers/hackforla/new-schools-today?label=Watchers&style=for-the-badge)
 
 New Schools Today is an open-source project to modernize online school resources envisioned by students. It is going to be an easy to use template that will allow any school to get a modern website.

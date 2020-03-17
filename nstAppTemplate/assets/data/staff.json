@@ -1,0 +1,30 @@
+[
+    {
+        "firstName": "FirstName 1",
+        "lastName": "LastName 1",
+        "roomNumber": "RoomNumber 1",
+        "department": "Department 1",
+        "email": "Email 1",
+        "house": "House 1",
+        "websites": ["Website 1"],
+        "ext": "Extension 1",
+        "other": "Other 1"
+    },
+    {
+        "firstName": "FirstName 2",
+        "lastName": "LastName 2",
+        "roomNumber": "RoomNumber 2",
+        "department": "Department 2",
+        "house": "House 2",
+        "websites": ["Website 2"]
+    },
+    {
+        "firstName": "FirstName 3",
+        "lastName": "LastName 3",
+        "roomNumber": "RoomNumber 3",
+        "department": "Department 3",
+        "email": "Email 3"
+
+    }
+   
+]

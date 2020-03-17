@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nstAppTemplate/staffDirectory/page.dart';
 import './Home.dart';
 import './UndefinedView.dart';
 
@@ -10,6 +11,12 @@ const List routes = [
     'name':'Home',
     'route':'/'
   },
+  {
+    
+    'name':'Staff Directory',
+    'route':'/staffDirectory'
+  
+  }
 ];
 
 MaterialPageRoute directRoute(int index) {
@@ -37,7 +44,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
+      routes: {
+        '/staffDirectory':(c)=>StaffDirectoryPage()
+      },
       onGenerateRoute: (RouteSettings settings) {
+        
         for(int i = 0; i < routes.length; i++) {
           if(settings.name == routes[i]['route']) {
             return directRoute(i);

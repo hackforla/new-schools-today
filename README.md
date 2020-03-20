@@ -9,7 +9,8 @@ New Schools Today is an open-source project to modernize online school resources
 ### Technology used
 
 - React
-- JSON Data
+- Flutter
+- Material UI
 
 
 

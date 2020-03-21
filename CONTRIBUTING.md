@@ -42,8 +42,6 @@ Consider joining the [Data Science Team](https://github.com/hackforla/website/wi
 
 [UI/UX Designer](https://github.com/hackforla/website/new-schools-today/UI-UX-Designer)
 
-[Copywriter](https://github.com/hackforla/website/new-schools-today/Copywriter)
-
 [Project Manager](https://github.com/hackforla/new-schools-today/wiki/Project-Manager)
 
 [Other Volunteer](https://github.com/hackforla/new-schools-today/wiki/Other-Volunteer)

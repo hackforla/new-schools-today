@@ -3,32 +3,32 @@
 
 ![Watchers](https://img.shields.io/github/watchers/hackforla/new-schools-today?label=Watchers&style=for-the-badge)
 
-New Schools Today is an open-source project to modernize online school resources envisioned by students. It is going to be an easy to use template that will allow any school to get a modern website.
+New Schools Today is an open-source project envisioned by students aiming to modernize school technology. Our goal is to create an easy-to-use template for title-1 students to create relevant and useful apps for their school community. 
 
+### Technologies used
 
-### Technology used
-
+- JavaScript
 - React
+- Dart
 - Flutter
 - Material UI
 
-
-
 ## How to contribute
 
-### Who we are looking for
+### Who are we looking for?
 - UX Designers
 - Graphic Designers
-- React Developerss
-- AWS Experts
+- React Developers
+- AWS Specialists
 - CI Experts
+- Business Analysts/Advisors
+- Market Researchers
 
-### How to join
-- Join the team
-  - Join our slack
-  - Come to Hack For LA Santa Monica on Monday Nights
+### How do I join?
+  - Attend a [Hack for LA remote onboarding meeting](https://www.meetup.com/hackforla/events/nsdsmrybcfbwb/)
+  - [Join our slack](https://app.slack.com/client/T04502KQX/CQZ5R91C5)
 
-We are currently not taking remote contributors.
+Note: Due to the COVID-19 epidemic, Hack for LA's in-person Hack Nights are currently suspended. However, New Schools Today is still accepting remote contributions! 
 
 ### Standardized contribution method
 Open and read through the issue you will be tackling

@@ -16,4 +16,3 @@
 ### Getting assignments
 
 - Please contact our technical lead [Benjamin Swerdlow](https://hackforla.slack.com/team/UKUHHS94L); give your availability and technical skills
-

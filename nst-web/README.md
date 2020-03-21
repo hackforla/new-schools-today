@@ -10,10 +10,4 @@ To run use "yarn start"
 
 ### Contributing
 
-## Contributing a new page
-
-To contribute a new page, first check that it doesn't exist yet.
-
-Add the page to the Pages folder
-
-Add reference to page in router in body.jsx, and add it to the drawer in Components/SideDrawer.jsx
+Please read our [contributing document](https://github.com/hackforla/new-schools-today/blob/master/nst-web/CONTRIBUTING.md)

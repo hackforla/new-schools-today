@@ -21,7 +21,7 @@ To run the app:
     - Create file with data object ex: <code>StaffDirectory</code> has the <code>Staff</code> class
     - Create page file that only includes the loading data <code>FutureBuilder</code>
     - Create body file that includes your page body
-      - Whenever you have the opportunity to use our app [Globals]() please use them
+      - Whenever you have the opportunity to use our app [Globals](https://github.com/hackforla/new-schools-today/blob/master/nstAppTemplate/GLOBALS.md) please use them
       - Do not include any hard coded colors in your page
       - Body should include page logic and scaffolding
 3. Add page to router

@@ -15,7 +15,7 @@ New Schools Today is an open-source project envisioned by students aiming to mod
 
 ## How to contribute
 
-Read the [Contributing](https://https://github.com/hackforla/new-schools-today/master/CONTRIBUTING.md) document
+Read the [Contributing](https://github.com/hackforla/new-schools-today/blob/master/CONTRIBUTING.md) document
 
 Note: Due to the COVID-19 epidemic, Hack for LA's in-person Hack Nights are currently suspended. However, New Schools Today is still accepting remote contributions! 
 

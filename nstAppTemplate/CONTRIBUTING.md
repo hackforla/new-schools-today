@@ -1,4 +1,7 @@
 # Contributing
+## First time contributors
+Please read to project [contributing doc](https://github.com/hackforla/new-schools-today/blob/master/CONTRIBUTING.md) 
+
 ## Installing dependencies & running the app
 - Install [Flutter](https://flutter.dev/docs/get-started/install)
 - Run the command <code>flutter doctor</code> and follow its instructions

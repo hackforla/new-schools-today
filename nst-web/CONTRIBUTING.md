@@ -8,7 +8,7 @@
 
 ### Standards
 
-- All code must follow [Prettier](prettier.io) code standards
+- All code must follow [Prettier](prettier.io/) code standards
 - All variables should be camelCase
 - All UI must be made entirely of [Material UI](https://material-ui.com) Components
 - Please remove all unneccesary changes before submitting your pull request

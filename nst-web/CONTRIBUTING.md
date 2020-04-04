@@ -3,7 +3,7 @@
 ### Installing dependencies & running the website
 
 - Install [NPM](https://www.npmjs.com/get-npm)
-- Install [Yarn](classic.yarnpkg.com/en/docs/install)
+- Install [Yarn](https://yarnpkg.com/cli/install)
 - In the <code>new-schools-today/nst-web</code> directory run the command <code>yarn && yarn start</code>
 
 ### Standards

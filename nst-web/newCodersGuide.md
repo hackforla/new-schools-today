@@ -16,7 +16,7 @@
 For more information, see "Cloning a repository from GitHub to GitHub Desktop.
 
 
-#### Option 2: Terminal command prompt
+#### If Option 1 does not work:
 1. Install Git: 
 [Mac](https://git-scm.com/download/mac) /
 [Windows](https://git-scm.com/download/win) / 

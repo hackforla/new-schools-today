@@ -45,11 +45,11 @@ Code editors are spaces where you can create and edit code.
 We recommend [VSCode](https://code.visualstudio.com/Download)
 
 ## Step 3: Downloading yarn commands
-Install homebrew
+Install homebrew by typing the following into your terminal or command promp
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 `
 
-Install yarn
+Install yarn by typing the following into your terminal or command promp
 `brew install yarn`
 
 

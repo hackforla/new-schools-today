@@ -51,7 +51,7 @@ Install homebrew
 
 Install yarn
 `brew install yarn`
-
+(These directions are viable only for mac users, not windows-friendly)
 
 ## Step 4: Running the website
 

@@ -1,10 +1,10 @@
 # New Schools Today
 
-[![JavaScript](https://img.shields.io/badge/Language-JavaScript-brightgreen)](https://www.w3schools.com/Js/)
-[![ReactJS](https://img.shields.io/badge/Framework-ReactJS-red)](https://reactjs.org)
-[![ReactJS](https://img.shields.io/badge/Framework-MaterialUI-2196f3)](https://material-ui.com)
-[![Dart](https://img.shields.io/badge/Language-Dart-7C4DFF)](https://dart.dev)
-[![Flutter](https://img.shields.io/badge/Framework-Flutter-487BEA)](https://flutter.dev)
+[![JavaScript](https://img.shields.io/badge/Language-JavaScript-brightgreen?logo=JavaScript)](https://www.w3schools.com/Js/)
+[![ReactJS](https://img.shields.io/badge/Framework-ReactJS-red?logo=react)](https://reactjs.org)
+[![Material UI](https://img.shields.io/badge/Framework-MaterialUI-2196f3?logo=Material-UI)](https://material-ui.com)
+[![Dart](https://img.shields.io/badge/Language-Dart-7C4DFF?logo=dart)](https://dart.dev)
+[![Flutter](https://img.shields.io/badge/Framework-Flutter-487BEA?logo=flutter)](https://flutter.dev)
 
 ![Watchers](https://img.shields.io/github/watchers/hackforla/new-schools-today?label=Watchers)
 [![GitHub issues](https://img.shields.io/github/issues/hackforla/new-schools-today)](https://github.com/hackforla/new-schools-today/issues)

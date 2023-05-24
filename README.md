@@ -9,7 +9,7 @@
 ![Watchers](https://img.shields.io/github/watchers/hackforla/new-schools-today?label=Watchers)
 [![GitHub issues](https://img.shields.io/github/issues/hackforla/new-schools-today)](https://github.com/hackforla/new-schools-today/issues)
 
-New Schools Today is an open-source project envisioned by students aiming to modernize school technology. Our goal is to create an easy-to-use template for title-1 students to create relevant and useful apps for their school community. 
+New Schools Today is an open-source project envisioned by students aiming to modernize school technology. Our goal is to create an easy-to-use template for students to create relevant and useful apps for their school community. 
 
 ### Technologies used
 
